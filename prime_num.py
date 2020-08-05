@@ -1,7 +1,3 @@
-
-# user_start = 2
-# user_end = 20
-
 # Function to check prime numbers
 def is_prime(number):
     """
@@ -34,8 +30,7 @@ def get_primes_from_range(start, end):
 
     return result
 
-# Adding communication with a User
-user_start=int(input("Please enter the range start > "))
-user_end=int(input("Please, enter the range end > "))
+user_start=2
+user_end=30
 
 print(get_primes_from_range(user_start, user_end))
